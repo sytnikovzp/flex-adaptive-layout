@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flex adaptive layout</title>
-  <link rel="stylesheet" href="./assets/style/style.css">
-</head>
-<body>
-  <header>
-    <div class="bg-image"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex adaptive layout</title>
+    <link rel="stylesheet" href="./assets/style/core-styles.css" />
+    <!-- ...as general css for all site -->
+    <link rel="stylesheet" href="./assets/style/header.css" />
+    <!-- ...as header style -->
+  </head>
+  <body>
+    <header id="showcase" class="Flex">
+      <div class="bg-image"></div>
+      <div class="content-wrap">
+        <h1>Welcome to Acme Web Solutions</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum
+          error earum soluta voluptatum nisi laboriosam eos saepe asperiores
+          dolorum.
+        </p>
+        <a href="#section-b" class="btn">Read More</a>
+      </div>
+    </header>
 
-  </header>
-
-
-
-  <main></main>
-  <footer></footer>
-</body>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
