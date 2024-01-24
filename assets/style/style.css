@@ -164,7 +164,7 @@ img {
 
 .box > p {
   padding-top: 1em;
-  padding-bottom: 1em;
+  /* padding-bottom: 1em; */
 }
 
 #section-d .box:first-child {
@@ -185,4 +185,28 @@ img {
 #footer a {
   color: #2690d4;
   text-decoration: none;
+}
+
+@media screen and (max-width: 699px) {
+  #section-a p {
+    columns: 1;
+  }
+  
+  #section-b ul {
+    flex-direction: column;
+  }
+  #section-b li {
+    width: 100%;
+  }
+  
+  #section-d {
+    flex-direction: column;
+  }
+  #section-d .box {
+    width: 100%;
+  }
+
+  #footer {
+    flex-direction: column;
+  }
 }
