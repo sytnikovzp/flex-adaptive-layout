@@ -1,9 +1,0 @@
-.flex-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.content-wrap > p {
-  margin: auto;
-  width: 75%;
-}
