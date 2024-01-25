@@ -9,7 +9,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background: #333;
-  font-size: 1.1rem;
+  font-size: 1.1em;
   line-height: 1.5;
   text-align: center;
 }
@@ -79,7 +79,7 @@ body {
   justify-content: center;
 }
 
-#section-a p {
+.content-text > p {
   padding-top: 1.5em;
   width: 70%;
   text-align: center;
@@ -95,7 +95,7 @@ body {
   padding: 2em 1em 1em;
 }
 
-#section-b ul {
+ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -103,7 +103,7 @@ body {
   padding: 0;
 }
 
-#section-b li {
+li {
   margin-bottom: 1em;
   background: #fff;
   width: 31%;
@@ -136,9 +136,9 @@ img {
 }
 
 #section-c p {
+  columns: 1;
   padding-top: 3em;
   width: 80%;
-  text-align: center;
 }
 
 /* Section D */
@@ -177,27 +177,27 @@ img {
   text-align: center;
 }
 
-#footer a {
+div > a {
   color: #2690d4;
   text-decoration: none;
 }
 
 @media screen and (max-width: 699px) {
-  #section-a p {
+  .content-text > p {
     columns: 1;
   }
   
-  #section-b ul {
+  ul {
     flex-direction: column;
   }
-  #section-b li {
+  li {
     width: 100%;
   }
   
   #section-d {
     flex-direction: column;
   }
-  #section-d .box {
+  .box {
     width: 100%;
   }
 
