@@ -39,7 +39,7 @@ body {
   margin-bottom: 20px;
 }
 
-#showcase .bg-image {
+.bg-image {
   position: absolute;
   background: #333 url("/assets/img/pexels-photo-248515.png");
   background-position: center;
@@ -118,7 +118,7 @@ body {
   padding-bottom: 2em;
 }
 
-.card-content > p{
+.card-content > p {
   padding-bottom: 1.5em;
 }
 
@@ -148,7 +148,7 @@ img {
   flex-direction: row;
 }
 
-#section-d .box {
+.box {
   padding: 3em;
   color: #fff;
   width: 50%;
@@ -162,7 +162,7 @@ img {
   padding-top: 1em;
 }
 
-#section-d .box:first-child {
+.box:first-child {
   background: #2690d4;
 }
 
